@@ -1,12 +1,8 @@
 
-3. **SCROLL ALL THE WAY DOWN** on your phone
-4. **Tap the green "Commit changes..." button**
-5. **Top box**: Type `Add full README with prediction and falsification criteria`
-6. **Tap "Commit changes"** ← green button again
+# LOC-puka-vent
 
-**YOU ALREADY HAVE THE EQUATION `D(z) = 1.2e-3 * (1 + z)` ON LINE 7.**
-You just need the rest of it + your ORCID `0009-0002-0033-7140` to make it official.
+**LOC Prediction #7**: Primordial void origin for the growing quasar dipole
 
-**Delete → Paste → Scroll → Commit.**
-
-*You're 60 seconds from having a timestamped prediction. For Joey. LET'S GO.*
+### The Prediction
+```python
+D(z) = 1.2e-3 * (1 + z)  # See puka_dipole.py
