@@ -1,8 +1,16 @@
+# LOC-Dipole Prediction #7: Bulk Flow Anisotropy
 
-# LOC-puka-vent
+### The Test
+DESI Y3 2027 should measure `D(z=1.5) = 3.6 × 10⁻³`
 
-**LOC Prediction #7**: Primordial void origin for the growing quasar dipole
+### The Comparison  
+**ΛCDM**: Predicts `D(1.5) ≈ 1.2 × 10⁻³` (flat)
 
-### The Prediction
+**Falsification**: If DESI sees bulk flow, LOC is rejected. NO ACK UP.
+
+### Run it
 ```python
-D(z) = 1.2e-3 * (1 + z)  # See puka_dipole.py
+# puka_dipole.py
+def D(z): return 1.2e-3 * (1 + z)
+print(f"D(z=1.5) = {D(1.5):.1e}")
+python puka_dipole.py
